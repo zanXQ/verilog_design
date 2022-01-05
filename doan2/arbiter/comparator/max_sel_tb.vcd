@@ -1,0 +1,116 @@
+$date
+	Mon Dec 20 17:32:03 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module max_sel_tb $end
+$var wire 1 ! sel $end
+$var wire 2 " out [1:0] $end
+$var reg 2 # in1 [1:0] $end
+$var reg 2 $ in2 [1:0] $end
+$scope module a $end
+$var wire 2 % in1 [1:0] $end
+$var wire 2 & in2 [1:0] $end
+$var wire 1 ! sel $end
+$var wire 2 ' out [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+x!
+$end
+#10
+0!
+b0 "
+b0 '
+b0 $
+b0 &
+b0 #
+b0 %
+#20
+b1 "
+b1 '
+b1 $
+b1 &
+#30
+b10 "
+b10 '
+b10 $
+b10 &
+#40
+b11 "
+b11 '
+b11 $
+b11 &
+#50
+1!
+b1 "
+b1 '
+b0 $
+b0 &
+b1 #
+b1 %
+#60
+0!
+b1 $
+b1 &
+#70
+0!
+b10 "
+b10 '
+b10 $
+b10 &
+#80
+b11 "
+b11 '
+b11 $
+b11 &
+#90
+1!
+b10 "
+b10 '
+b0 $
+b0 &
+b10 #
+b10 %
+#100
+b1 $
+b1 &
+#110
+0!
+b10 $
+b10 &
+#120
+b11 "
+b11 '
+b11 $
+b11 &
+#130
+1!
+b11 "
+b11 '
+b0 $
+b0 &
+b11 #
+b11 %
+#140
+b1 $
+b1 &
+#150
+b10 $
+b10 &
+#160
+0!
+b11 $
+b11 &

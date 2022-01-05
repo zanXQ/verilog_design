@@ -1,0 +1,219 @@
+$date
+	Thu Dec 23 13:07:18 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module arbiter_mux_tb $end
+$var wire 1 ! outputAvailable $end
+$var wire 5 " grant [4:0] $end
+$var wire 16 # data_out [15:0] $end
+$var reg 1 $ clk $end
+$var reg 16 % data_0 [15:0] $end
+$var reg 16 & data_1 [15:0] $end
+$var reg 16 ' data_2 [15:0] $end
+$var reg 16 ( data_3 [15:0] $end
+$var reg 16 ) data_4 [15:0] $end
+$var reg 5 * request [4:0] $end
+$var reg 1 + reset $end
+$scope module a $end
+$var wire 1 , anyGrant $end
+$var wire 1 $ clk $end
+$var wire 16 - data_0 [15:0] $end
+$var wire 16 . data_1 [15:0] $end
+$var wire 16 / data_2 [15:0] $end
+$var wire 16 0 data_3 [15:0] $end
+$var wire 16 1 data_4 [15:0] $end
+$var wire 5 2 grant [4:0] $end
+$var wire 5 3 request [4:0] $end
+$var wire 1 + reset $end
+$var wire 1 4 stage3_sel $end
+$var wire 5 5 stage3_grant [4:0] $end
+$var wire 17 6 stage3_data [16:0] $end
+$var wire 2 7 stage3 [1:0] $end
+$var wire 1 8 stage2_sel $end
+$var wire 5 9 stage2_grant [4:0] $end
+$var wire 2 : stage1_sel [1:0] $end
+$var wire 5 ; stage1_grant [4:0] $end
+$var wire 1 ! outputAvailable $end
+$var wire 16 < data_out [15:0] $end
+$var reg 5 = prior [4:0] $end
+$scope module stage_1_0 $end
+$var wire 2 > in1 [1:0] $end
+$var wire 2 ? in2 [1:0] $end
+$var wire 1 @ sel $end
+$var wire 2 A out [1:0] $end
+$upscope $end
+$scope module stage_1_1 $end
+$var wire 2 B in1 [1:0] $end
+$var wire 2 C in2 [1:0] $end
+$var wire 1 D sel $end
+$var wire 2 E out [1:0] $end
+$upscope $end
+$scope module stage_2 $end
+$var wire 2 F in1 [1:0] $end
+$var wire 2 G in2 [1:0] $end
+$var wire 1 8 sel $end
+$var wire 2 H out [1:0] $end
+$upscope $end
+$scope module stage_3 $end
+$var wire 2 I in1 [1:0] $end
+$var wire 2 J in2 [1:0] $end
+$var wire 1 4 sel $end
+$var wire 2 K out [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b11 K
+b11 J
+b1 I
+b11 H
+b1 G
+b11 F
+b11 E
+0D
+b11 C
+b1 B
+b1 A
+0@
+b1 ?
+b1 >
+b11111 =
+b1100 <
+b100 ;
+b0 :
+b100 9
+18
+b11 7
+b1100 6
+b100 5
+04
+b100 3
+b100 2
+b1110 1
+b1101 0
+b1100 /
+b1011 .
+b1010 -
+1,
+1+
+b100 *
+b1110 )
+b1101 (
+b1100 '
+b1011 &
+b1010 %
+0$
+b1100 #
+b100 "
+0!
+$end
+#10
+b0 :
+0@
+b10 7
+b10 K
+b10 H
+b10 J
+b10 E
+b10 F
+b0 A
+b0 G
+b10 C
+b0 >
+b0 ?
+b11000 =
+0+
+1$
+#20
+0$
+#30
+1$
+#40
+0$
+#50
+b1000 "
+b1000 2
+b1000 5
+b1101 #
+b1101 <
+b1101 6
+b1000 9
+b11 7
+b11 K
+b11 H
+b11 J
+b1000 ;
+b11 E
+b11 F
+b10 :
+1D
+b11 B
+b1100 *
+b1100 3
+1$
+#60
+0$
+#70
+b100 "
+b100 2
+b100 5
+b1100 #
+b1100 <
+b1100 6
+b100 9
+b100 ;
+b0 :
+0D
+b10 7
+b10 K
+b10 H
+b10 J
+b10 E
+b10 F
+b10 B
+b10000 =
+1$
+#80
+0$
+#90
+b10 :
+1D
+b11000 =
+1!
+0,
+b1101 #
+b1101 <
+b1101 6
+04
+18
+b0 "
+b0 2
+b0 5
+b1 7
+b1 K
+b0 9
+b1 H
+b1 J
+b1 E
+b1 F
+b0 ;
+b0 C
+b1 B
+b0 *
+b0 3
+1$
+#100
+0$
+#110
+1$
+#120
+0$
+#130
+1$

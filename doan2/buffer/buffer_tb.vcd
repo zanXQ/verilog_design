@@ -1,0 +1,590 @@
+$date
+	Tue Dec 21 19:08:59 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module buffer_tb $end
+$var wire 1 ! valid_out $end
+$var wire 1 " ready_out $end
+$var wire 16 # data_out [15:0] $end
+$var reg 1 $ clk $end
+$var reg 16 % data_in [15:0] $end
+$var reg 1 & ready_in $end
+$var reg 1 ' reset $end
+$var reg 1 ( valid_in $end
+$scope module a $end
+$var wire 1 $ clk $end
+$var wire 1 ) control_pop $end
+$var wire 1 * control_push $end
+$var wire 16 + data_in [15:0] $end
+$var wire 1 & ready_in $end
+$var wire 1 ' reset $end
+$var wire 1 ( valid_in $end
+$var wire 1 ! valid_out $end
+$var wire 1 " ready_out $end
+$var wire 1 , fifo_full $end
+$var wire 1 - fifo_empty $end
+$var wire 16 . data_out [15:0] $end
+$scope module fifo $end
+$var wire 1 $ clk $end
+$var wire 16 / data_in [15:0] $end
+$var wire 1 - fifo_empty $end
+$var wire 1 , fifo_full $end
+$var wire 1 ) pop $end
+$var wire 1 * push $end
+$var wire 1 ' reset $end
+$var wire 4 0 pointer_tail_inc [3:0] $end
+$var wire 4 1 pointer_head_inc [3:0] $end
+$var reg 16 2 data_out [15:0] $end
+$var reg 4 3 pointer_head [3:0] $end
+$var reg 4 4 pointer_tail [3:0] $end
+$scope module head $end
+$var wire 4 5 a [3:0] $end
+$var wire 4 6 b [3:0] $end
+$var wire 1 7 cin $end
+$var wire 4 8 output_adder_4bits [3:0] $end
+$var wire 4 9 cout_temp [3:0] $end
+$var wire 1 : cout $end
+$scope module a0 $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 7 cin $end
+$var wire 1 = cout $end
+$var wire 1 > s $end
+$upscope $end
+$scope module a1 $end
+$var wire 1 ? a $end
+$var wire 1 @ b $end
+$var wire 1 A cin $end
+$var wire 1 B cout $end
+$var wire 1 C s $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 D a $end
+$var wire 1 E b $end
+$var wire 1 F cin $end
+$var wire 1 G cout $end
+$var wire 1 H s $end
+$upscope $end
+$scope module a3 $end
+$var wire 1 I a $end
+$var wire 1 J b $end
+$var wire 1 K cin $end
+$var wire 1 L cout $end
+$var wire 1 M s $end
+$upscope $end
+$upscope $end
+$scope module tail $end
+$var wire 4 N a [3:0] $end
+$var wire 4 O b [3:0] $end
+$var wire 1 P cin $end
+$var wire 4 Q output_adder_4bits [3:0] $end
+$var wire 4 R cout_temp [3:0] $end
+$var wire 1 S cout $end
+$scope module a0 $end
+$var wire 1 T a $end
+$var wire 1 U b $end
+$var wire 1 P cin $end
+$var wire 1 V cout $end
+$var wire 1 W s $end
+$upscope $end
+$scope module a1 $end
+$var wire 1 X a $end
+$var wire 1 Y b $end
+$var wire 1 Z cin $end
+$var wire 1 [ cout $end
+$var wire 1 \ s $end
+$upscope $end
+$scope module a2 $end
+$var wire 1 ] a $end
+$var wire 1 ^ b $end
+$var wire 1 _ cin $end
+$var wire 1 ` cout $end
+$var wire 1 a s $end
+$upscope $end
+$scope module a3 $end
+$var wire 1 b a $end
+$var wire 1 c b $end
+$var wire 1 d cin $end
+$var wire 1 e cout $end
+$var wire 1 f s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+1W
+0V
+0U
+0T
+0S
+b0 R
+b1 Q
+1P
+b0 O
+b0 N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+1>
+0=
+0<
+0;
+0:
+b0 9
+b1 8
+17
+b0 6
+b0 5
+b0 4
+b0 3
+bx 2
+b1 1
+b1 0
+b1 /
+bx .
+1-
+0,
+b1 +
+1*
+0)
+1(
+1'
+1&
+b1 %
+0$
+bx #
+1"
+0!
+$end
+#10
+1*
+1)
+1"
+0,
+1!
+0-
+1C
+1A
+b1 9
+1=
+b10 1
+b10 8
+0>
+1;
+b1 3
+b1 5
+b1010 %
+b1010 +
+b1010 /
+0'
+1$
+#20
+0$
+#30
+b1010 #
+b1010 .
+b1010 2
+1*
+1\
+1"
+0,
+0H
+1Z
+0A
+0F
+b1 R
+1V
+0=
+b0 9
+0B
+b10 0
+b10 Q
+0W
+1>
+b11 1
+b11 8
+1C
+1T
+0;
+1?
+b1 4
+b1 N
+b10 3
+b10 5
+b1011 %
+b1011 +
+b1011 /
+1$
+#40
+0$
+#50
+b1011 #
+b1011 .
+b1011 2
+1H
+1F
+1*
+1B
+0a
+1"
+0,
+0C
+0Z
+0_
+1A
+0V
+b0 R
+0[
+b11 9
+1=
+1W
+b11 0
+b11 Q
+1\
+b100 1
+b100 8
+0>
+0T
+1X
+1;
+b10 4
+b10 N
+b11 3
+b11 5
+b1100 %
+b1100 +
+b1100 /
+1$
+#60
+0$
+#70
+b1100 #
+b1100 .
+b1100 2
+1a
+1_
+1[
+1*
+0\
+1"
+0,
+0M
+1Z
+0A
+0F
+0K
+b11 R
+1V
+0=
+0B
+b0 9
+0G
+b100 0
+b100 Q
+0W
+1>
+0C
+b101 1
+b101 8
+1H
+1T
+0;
+0?
+1D
+0)
+b11 4
+b11 N
+b100 3
+b100 5
+b1101 %
+b1101 +
+b1101 /
+0&
+1$
+#80
+0$
+#90
+1!
+0-
+1C
+1A
+b1 9
+1=
+b110 1
+b110 8
+0>
+1;
+1)
+b101 3
+b101 5
+b1110 %
+b1110 +
+b1110 /
+1&
+1$
+#100
+0$
+#110
+b1101 #
+b1101 .
+b1101 2
+0M
+0K
+0G
+0f
+1H
+0Z
+0_
+0d
+0A
+0F
+0V
+0[
+b0 R
+0`
+0=
+b0 9
+0B
+1W
+0\
+b101 0
+b101 Q
+1a
+1>
+b111 1
+b111 8
+1C
+0T
+0X
+1]
+0;
+1?
+b100 4
+b100 N
+b110 3
+b110 5
+1$
+#120
+0$
+#130
+b1110 #
+b1110 .
+b1110 2
+1M
+1K
+1G
+0H
+1F
+1B
+1\
+0C
+1Z
+1A
+b1 R
+1V
+b111 9
+1=
+b110 0
+b110 Q
+0W
+b1000 1
+b1000 8
+0>
+1T
+1;
+b101 4
+b101 N
+b111 3
+b111 5
+b1111 %
+b1111 +
+b1111 /
+1$
+#140
+0$
+#150
+0f
+0d
+0`
+1a
+0Z
+0_
+0A
+0F
+0K
+0:
+0V
+b0 R
+0[
+0=
+0B
+0G
+b0 9
+0L
+1W
+b111 0
+b111 Q
+1\
+1>
+0C
+0H
+b1001 1
+b1001 8
+1M
+0T
+1X
+0;
+0?
+0D
+1I
+0*
+b110 4
+b110 N
+b1000 3
+b1000 5
+0(
+1$
+#160
+0$
+#170
+b1111 #
+b1111 .
+b1111 2
+1f
+1d
+1`
+0a
+1_
+1[
+0\
+1Z
+b111 R
+1V
+b1000 0
+b1000 Q
+0W
+1T
+b111 4
+b111 N
+1$
+#180
+0$
+#190
+0)
+0!
+1-
+0Z
+0_
+0d
+0S
+0V
+0[
+0`
+b0 R
+0e
+1W
+0\
+0a
+b1001 0
+b1001 Q
+1f
+0T
+0X
+0]
+1b
+b1000 4
+b1000 N
+1$
+#200
+0$
+#210
+1$
+#220
+0$
+#230
+1*
+1(
+b101 %
+b101 +
+b101 /
+1$
+#240
+0$
+#250
+1)
+1"
+0,
+1!
+0-
+1C
+1A
+b1 9
+1=
+b1010 1
+b1010 8
+0>
+1;
+0*
+b1001 3
+b1001 5
+0(
+1$
+#260
+0$
+#270
+b101 #
+b101 .
+b101 2
+0)
+0!
+1-
+1\
+1Z
+b1 R
+1V
+b1010 0
+b1010 Q
+0W
+1T
+b1001 4
+b1001 N
+1$
+#280
+0$
+#290
+1$

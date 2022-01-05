@@ -1,0 +1,171 @@
+$date
+	Thu Dec 23 13:05:21 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module datapath_tb $end
+$var wire 5 ! requestPort [4:0] $end
+$var wire 1 " ready $end
+$var wire 16 # dataOut4 [15:0] $end
+$var wire 16 $ dataOut3 [15:0] $end
+$var wire 16 % dataOut2 [15:0] $end
+$var wire 16 & dataOut1 [15:0] $end
+$var wire 16 ' dataOut0 [15:0] $end
+$var reg 1 ( clk $end
+$var reg 16 ) dataIn [15:0] $end
+$var reg 5 * outputAvailable [4:0] $end
+$var reg 5 + outputGrant [4:0] $end
+$var reg 5 , outputReady [4:0] $end
+$var reg 1 - reset $end
+$var reg 1 . validIn $end
+$scope module test $end
+$var wire 1 ( clk $end
+$var wire 16 / dataIn [15:0] $end
+$var wire 1 0 isHead $end
+$var wire 5 1 outputAvailable [4:0] $end
+$var wire 5 2 outputGrant [4:0] $end
+$var wire 5 3 outputReady [4:0] $end
+$var wire 1 " ready $end
+$var wire 1 4 request $end
+$var wire 1 - reset $end
+$var wire 1 . validIn $end
+$var wire 3 5 selectPort [2:0] $end
+$var wire 5 6 requestPort [4:0] $end
+$var wire 1 7 readyPort $end
+$var wire 1 8 portAvailable $end
+$var wire 5 9 destination [4:0] $end
+$var wire 17 : dataOut4 [16:0] $end
+$var wire 17 ; dataOut3 [16:0] $end
+$var wire 17 < dataOut2 [16:0] $end
+$var wire 17 = dataOut1 [16:0] $end
+$var wire 17 > dataOut0 [16:0] $end
+$var reg 1 ? outLock $end
+$var reg 5 @ outPort [4:0] $end
+$scope module Available $end
+$var wire 5 A in [4:0] $end
+$var wire 1 8 out $end
+$var wire 3 B sel [2:0] $end
+$var wire 1 C stage_3 $end
+$var wire 1 D stage_2 $end
+$var wire 2 E stage_1 [1:0] $end
+$upscope $end
+$scope module outReady $end
+$var wire 5 F in [4:0] $end
+$var wire 1 7 out $end
+$var wire 3 G sel [2:0] $end
+$var wire 1 H stage_3 $end
+$var wire 1 I stage_2 $end
+$var wire 2 J stage_1 [1:0] $end
+$upscope $end
+$scope module outRequest $end
+$var wire 1 4 in $end
+$var wire 3 K sel [2:0] $end
+$var wire 5 L out [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 L
+b1 K
+b1 J
+1I
+1H
+b1 G
+b10 F
+b0 E
+0D
+0C
+b1 B
+b100 A
+b0 @
+0?
+b11100100010000000 >
+b11100100010000000 =
+b11100100010000000 <
+b11100100010000000 ;
+b11100100010000000 :
+b1 9
+08
+17
+b0 6
+b1 5
+04
+b10 3
+b10 2
+b100 1
+10
+b1100100010000000 /
+1.
+1-
+b10 ,
+b10 +
+b100 *
+b1100100010000000 )
+0(
+b1100100010000000 '
+b1100100010000000 &
+b1100100010000000 %
+b1100100010000000 $
+b1100100010000000 #
+1"
+b0 !
+$end
+#10
+1?
+b1 @
+0-
+1(
+#20
+0(
+#30
+1(
+#40
+0(
+#50
+b100 !
+b100 6
+b100 L
+14
+18
+1C
+1D
+0"
+07
+0H
+b10 E
+b0 J
+0I
+b10 5
+b10 B
+b10 G
+b10 K
+b10 9
+b1101000010000000 '
+b1101000010000000 &
+b1101000010000000 %
+b1101000010000000 $
+b1101000010000000 #
+b11101000010000000 >
+b11101000010000000 =
+b11101000010000000 <
+b11101000010000000 ;
+b11101000010000000 :
+b1101000010000000 )
+b1101000010000000 /
+1(
+#60
+0(
+#70
+0?
+b10 @
+1(
+#80
+0(
+#90
+1(
