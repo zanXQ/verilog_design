@@ -1,7 +1,7 @@
 # verilog_design
 My simple verilog design for school
 -----------------------------------
-doan_1/doan is a simple cpu
+doan_1/doan is a simple 32-bit cpu with 10 instructions
 
 doan_1/doan1 is 32-bit floating point adder/subtractor
 
