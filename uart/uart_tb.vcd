@@ -1,0 +1,559 @@
+$date
+	Sat Jan  8 16:55:09 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module uart_tb $end
+$var wire 32 ! address [31:0] $end
+$var wire 1 " we $end
+$var wire 1 # done $end
+$var wire 8 $ data_out [7:0] $end
+$var reg 1 % clk $end
+$var reg 8 & data_in [7:0] $end
+$var reg 1 ' en $end
+$var reg 1 ( reset $end
+$scope module test $end
+$var wire 32 ) address [31:0] $end
+$var wire 1 % clk $end
+$var wire 8 * data_in [7:0] $end
+$var wire 1 ' en $end
+$var wire 1 ( reset $end
+$var wire 1 " we $end
+$var wire 1 # done $end
+$var wire 8 + data_out [7:0] $end
+$var wire 1 , data $end
+$scope module test0 $end
+$var wire 1 % clk $end
+$var wire 8 - data [7:0] $end
+$var wire 1 , data_tx $end
+$var wire 1 # done $end
+$var wire 1 ' en $end
+$var wire 1 ( reset $end
+$var wire 1 . stop $end
+$var wire 1 / switch $end
+$var wire 1 0 parity $end
+$var reg 4 1 baud_counter [3:0] $end
+$var reg 8 2 count [7:0] $end
+$var reg 8 3 data_shift [7:0] $end
+$var reg 1 4 idle $end
+$var reg 1 5 temp $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 6 i [31:0] $end
+$upscope $end
+$upscope $end
+$scope module test1 $end
+$var wire 32 7 address [31:0] $end
+$var wire 1 % clk $end
+$var wire 1 , data_tx $end
+$var wire 1 8 en $end
+$var wire 1 ( reset $end
+$var wire 1 9 restore $end
+$var wire 1 : stop $end
+$var wire 1 " we $end
+$var wire 1 ; parity $end
+$var wire 8 < data_out [7:0] $end
+$var reg 4 = baud_counter [3:0] $end
+$var reg 8 > count [7:0] $end
+$var reg 9 ? data_shift [8:0] $end
+$var reg 1 @ idle $end
+$var reg 1 A temp $end
+$scope begin $ivl_for_loop1 $end
+$var integer 32 B i [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx B
+0A
+1@
+b0 ?
+b0 >
+b0 =
+b0 <
+0;
+0:
+19
+08
+b10000000000000100000000 7
+bx 6
+05
+14
+b0 3
+b0 2
+b0 1
+00
+0/
+0.
+b11001100 -
+1,
+b0 +
+b11001100 *
+b10000000000000100000000 )
+1(
+0'
+b11001100 &
+0%
+b0 $
+0#
+0"
+b10000000000000100000000 !
+$end
+#10
+09
+0(
+1%
+#20
+0%
+#30
+18
+0@
+0,
+b1 2
+04
+1'
+1%
+#40
+0%
+#50
+b1 1
+b1 >
+b0 2
+b111 6
+15
+1%
+#60
+0%
+#70
+b1 =
+b1 2
+b0 >
+b0 ?
+b1001 B
+1A
+1%
+#80
+0%
+#90
+b1 >
+b0 2
+05
+1%
+#100
+0%
+#110
+b1 2
+b0 >
+0A
+1%
+#120
+0%
+#130
+b10 1
+b11001100 3
+b1 >
+b0 2
+b111 6
+15
+1%
+#140
+0%
+#150
+b10 =
+b1 2
+b0 >
+b0 ?
+b1001 B
+1A
+1%
+#160
+0%
+#170
+b1 >
+b0 2
+05
+1%
+#180
+0%
+#190
+b1 2
+b0 >
+0A
+1%
+#200
+0%
+#210
+b11 1
+b1 >
+b0 2
+b11100110 3
+b111 6
+15
+1%
+#220
+0%
+#230
+b11 =
+b1 2
+b0 >
+b0 ?
+b1001 B
+1A
+1%
+#240
+0%
+#250
+b1 >
+b0 2
+05
+1%
+#260
+0%
+#270
+b1 2
+b0 >
+0A
+1%
+#280
+0%
+#290
+b100 1
+b1 >
+b0 2
+1,
+b11110011 3
+b111 6
+15
+1%
+#300
+0%
+#310
+b100 =
+b1 2
+b0 >
+b100000000 ?
+b1001 B
+1A
+1%
+#320
+0%
+#330
+b1 >
+b0 2
+05
+1%
+#340
+0%
+#350
+b1 2
+b0 >
+0A
+1%
+#360
+0%
+#370
+b101 1
+b1 >
+b0 2
+b11111001 3
+b111 6
+15
+1%
+#380
+0%
+#390
+b101 =
+b1 2
+b0 >
+1;
+b10000000 $
+b10000000 +
+b10000000 <
+b110000000 ?
+b1001 B
+1A
+1%
+#400
+0%
+#410
+b1 >
+b0 2
+05
+1%
+#420
+0%
+#430
+b1 2
+b0 >
+0A
+1%
+#440
+0%
+#450
+b110 1
+b1 >
+b0 2
+0,
+b11111100 3
+b111 6
+15
+1%
+#460
+0%
+#470
+b110 =
+b1 2
+b0 >
+0;
+b11000000 $
+b11000000 +
+b11000000 <
+b11000000 ?
+b1001 B
+1A
+1%
+#480
+0%
+#490
+b1 >
+b0 2
+05
+1%
+#500
+0%
+#510
+b1 2
+b0 >
+0A
+1%
+#520
+0%
+#530
+b111 1
+b1 >
+b0 2
+b11111110 3
+b111 6
+15
+1%
+#540
+0%
+#550
+b111 =
+b1 2
+b0 >
+b1100000 $
+b1100000 +
+b1100000 <
+b1100000 ?
+b1001 B
+1A
+1%
+#560
+0%
+#570
+b1 >
+b0 2
+05
+1%
+#580
+0%
+#590
+b1 2
+b0 >
+0A
+1%
+#600
+0%
+#610
+b1000 1
+b1 >
+b0 2
+1,
+b11111111 3
+b111 6
+15
+1%
+#620
+0%
+#630
+b1000 =
+b1 2
+b0 >
+b110000 $
+b110000 +
+b110000 <
+b100110000 ?
+b1001 B
+1A
+1%
+#640
+0%
+#650
+b1 >
+b0 2
+05
+1%
+#660
+0%
+#670
+b1 2
+b0 >
+0A
+1%
+#680
+0%
+#690
+b1001 1
+b1 >
+b0 2
+b111 6
+15
+1%
+#700
+0%
+#710
+b1001 =
+b1 2
+b0 >
+1;
+b10011000 $
+b10011000 +
+b10011000 <
+b110011000 ?
+b1001 B
+1A
+1%
+#720
+0%
+#730
+b1 >
+b0 2
+05
+1%
+#740
+0%
+#750
+b1 2
+b0 >
+0A
+1%
+#760
+0%
+#770
+0,
+1/
+b1010 1
+b1 >
+b0 2
+b111 6
+15
+1%
+#780
+0%
+#790
+08
+1@
+1"
+19
+1:
+b1010 =
+b1 2
+b0 >
+0;
+b11001100 $
+b11001100 +
+b11001100 <
+b11001100 ?
+b1001 B
+1A
+1%
+#800
+0%
+#810
+b0 2
+05
+1%
+#820
+0%
+#830
+b1 2
+1%
+#840
+0%
+#850
+1,
+1#
+1.
+0/
+b1011 1
+b0 2
+b111 6
+15
+1%
+#860
+0%
+#870
+b1 2
+14
+1%
+#880
+0%
+#890
+14
+b0 2
+05
+1%
+#900
+0%
+#910
+b1 2
+14
+1%
+#920
+0%
+#930
+14
+b0 2
+b111 6
+15
+1%
+#940
+0%
+#950
+b1 2
+14
+1%
+#960
+0%
+#970
+14
+b0 2
+05
+1%
+#980
+0%
+#990
+b1 2
+14
+1%
+#1000
+0%
+#1010
+14
+b0 2
+b111 6
+15
+1%
+#1020
+0%
+#1030
+b1 2
+14
+1%
